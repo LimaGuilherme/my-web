@@ -23,7 +23,7 @@ const Projects = () => (
         .
       </p>
 
-      <div className="columns is centered">
+      <div className="columns is-centered">
         <div className="column is-half">
           <Card
             title="React Clean Architecture"

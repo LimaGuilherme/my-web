@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Guilherme Lima - Software Engineer',
+    title: 'Guilherme de Lima Barros - Software Engineer',
     author: 'None',
     siteUrl: ''
   },
