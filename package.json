@@ -1,19 +1,12 @@
 {
-  "name": "luanorlandi.github.io",
-  "description": "Website of Luan Orlandi",
+  "name": "limaguilherme.github.io",
+  "description": "My Portfolio",
   "version": "1.0.0",
-  "author": "Luan Orlandi <orlandi.luan@gmail.com>",
+  "author": "Guilherme de Lima Barros",
   "keywords": [
-    "website, portfolio, luanorlandi, gatsby"
+    "website, portfolio, react, gatsby"
   ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/learngatsby/build-personal-website"
-  },
-  "bugs": {
-    "url": "https://github.com/learngatsby/build-personal-website/issues"
-  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
