@@ -13,8 +13,20 @@ const Home = () => (
       description="Full Stack developer"
       keywords="Python, React, Gatsby, OOP, developer, back-end, front-end, REST, API"
     />
-    <h1 className="title has-text-centered">Hi There,</h1>
-    <h2 className="subtitle has-text-centered">I'am a full Stack Developer </h2>
+    <h1 className="title has-text-centered">Hi There.</h1>
+    <section className="section content is-size-4-desktop is-size-5-touch">
+      <p>
+        My specialites include quickly learning new skills and progamming languages, likewise Python, Flask, React, AngularJS, Elasticsearch, Celery, Memcached, Redis, Rabbit MQ, RESTful, DDD, TDD, AWS.
+      </p>
+      <p>
+        If you were interested in my brief description, you can see some of my
+        {' '}
+        <Link to="/projects">projects</Link>
+        {' or any of my '}
+        <Link to="/articles">articles</Link>
+        {'.'}
+      </p>
+    </section>
     <div className="has-text-centered">
       <a href="https://github.com" aria-label="github">
         <span className="icon-is-large fa-2x">
@@ -32,16 +44,6 @@ const Home = () => (
         </span>
       </a>
     </div>
-    <section className="section content is-size-4-desktop is-size-5-touch">
-      <p>
-        just fucking man
-      </p>
-      <p>
-        Checkout my
-        {' . '}
-        <Link to="/projects">projects</Link>
-      </p>
-    </section>
   </Layout>
 );
 
