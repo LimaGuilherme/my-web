@@ -32,10 +32,31 @@ const Articles = () => (
             image='a'
           />
           <Card
-            title="Flask Boilerplate"
-            subtitle="A Python Flask RESTful API boilerplate that i usually use in my projects."
-            link="https://github.com/LimaGuilherme/flask-boilerplate"
-            tags={['Python', 'Flask', 'Api']}
+            title="Getting Started With: Geospatial Libraries"
+            subtitle="A selection of most valuable libraries in Python"
+            link="https://towardsdatascience.com/getting-started-with-geospatial-libraries-1140859d79a7"
+            tags={['Python', 'Geoprocessing']}
+            image='a'
+          />
+          <Card
+            title="Understand Lucene To Understand ElasticSearch"
+            subtitle="Let’s look at the heart of Elasticsearch"
+            link="https://medium.com/dev-genius/understand-lucene-to-understand-elasticsearch-85037d5b7577e"
+            tags={['Lucene', 'ElasticSearch']}
+            image='a'
+          />
+          <Card
+            title="Facial Recognize in Python"
+            subtitle="An easy and smart way to recognize human face"
+            link="https://medium.com/swlh/facial-recognize-in-python-406dcbdcee4d"
+            tags={['Pyton', 'Artificial Intelligence']}
+            image='a'
+          />
+          <Card
+            title="Stop Using Your Mouse At PyCharm"
+            subtitle="An animated tutorial to increase your productivity in Pycharm"
+            link="https://medium.com/dev-genius/stop-using-your-mouse-at-pycharm-25fa9573350"
+            tags={['Pyton', 'Pycharm', 'Intellij']}
             image='a'
           />
         </div>

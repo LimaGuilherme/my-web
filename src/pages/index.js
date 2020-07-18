@@ -10,11 +10,12 @@ const Home = () => (
   <Layout>
     <SEO
       pageTitle="Home"
-      description="Full Stack developer"
+      description="Software Engineer"
       keywords="Python, React, Gatsby, OOP, developer, back-end, front-end, REST, API"
     />
-    <h1 className="title has-text-centered">Hi There.</h1>
     <section className="section content is-size-4-desktop is-size-5-touch">
+      <h3 className="title has-text-centered">Hi There.</h3>
+      <hr />
       <p>
         My specialites include quickly learning new skills and progamming languages, likewise Python, Flask, React, AngularJS, Elasticsearch, Celery, Memcached, Redis, Rabbit MQ, RESTful, DDD, TDD, AWS.
       </p>
