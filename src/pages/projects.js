@@ -1,10 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
 import Card from 'components/Card';
 
-const Projects = () => (
+
+
+const Projects =  () => (
   <Layout>
     <SEO
       pageTitle="Projects"
@@ -30,14 +33,18 @@ const Projects = () => (
             subtitle=""
             link="https://github.com/LimaGuilherme/react-clean-architecture"
             tags={['React', 'SOLID', 'Design Patterns']}
-            image='a'
           />
           <Card
             title="Flask Boilerplate"
-            subtitle="A Python Flask RESTful API boilerplate that i usually use in my projects."
+            subtitle="Flask RESTful API boilerplate that i use in my projects."
             link="https://github.com/LimaGuilherme/flask-boilerplate"
             tags={['Python', 'Flask', 'Api']}
-            image='a'
+          />
+          <Card
+            title="This Site"
+            subtitle="My website"
+            link="https://github.com/LimaGuilherme/my-web"
+            tags={['React', 'GatsbyJS', 'Bulma']}
           />
         </div>
       </div>
@@ -45,5 +52,6 @@ const Projects = () => (
     </section>
   </Layout>
 );
+
 
 export default Projects;

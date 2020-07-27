@@ -48,6 +48,12 @@ class Header extends Component {
                 Home
               </Link>
               <Link
+                to="/skills"
+                onClick={this.closeMenu}
+                className="navbar-item">
+                Skills
+              </Link>
+              <Link
                 to="/projects"
                 onClick={this.closeMenu}
                 className="navbar-item">

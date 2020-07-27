@@ -7,17 +7,11 @@ const Card = ({
   subtitle,
   link,
   tags,
-  image
 }) => (
   <a href={link} target="_blank">
     <div className="card">
       <div className="card-content">
         <div className="media">
-          <div className="media-left">
-            <figure className="image is-48x48">
-              {image}
-            </figure>
-          </div>
           <div className="media-content">
             <h4 className="title is-size-5-desktop is-size-6-touch">
               {title}
