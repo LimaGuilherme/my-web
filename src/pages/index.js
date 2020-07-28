@@ -13,7 +13,7 @@ const Home = () => (
       description="Software Engineer"
       keywords="Python, React, Gatsby, OOP, developer, back-end, front-end, REST, API"
     />
-    <section className="section content is-size-4-desktop is-size-5-touch">
+    <section className="section has-text-centered content is-size-4-desktop is-size-5-touch">
       <h3 className="title has-text-centered">Hi There</h3>
       <hr />
       <p>
