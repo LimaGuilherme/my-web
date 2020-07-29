@@ -34,14 +34,15 @@ const Articles = () => (
           <Card
             title="Getting Started With: Geospatial Libraries"
             subtitle="A selection of most valuable libraries in Python"
-            link="https://towardsdatascience.com/getting-started-with-geospatial-libraries-1140859d79a7"
+            link="httpsudeu
+            ://towardsdatascience.com/getting-started-with-geospatial-libraries-1140859d79a7"
             tags={['Python', 'Geoprocessing']}
             image='a'
           />
           <Card
             title="Understand Lucene To Understand ElasticSearch"
             subtitle="Let’s look at the heart of Elasticsearch"
-            link="https://medium.com/dev-genius/understand-lucene-to-understand-elasticsearch-85037d5b7577e"
+            link="https://medium.com/dev-genius/understand-lucene-to-understand-elasticsearch-85037d5b7577"
             tags={['Lucene', 'ElasticSearch']}
             image='a'
           />

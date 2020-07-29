@@ -5,6 +5,20 @@
 @import '../components/Card/Card.scss';
 @import '../components/Header/Header.scss';
 
+body {
+  margin: 0;
+  padding: 0;
+  /* more styles */
+}
+
+.particles {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .social-media-icons{
   color: black;
 }
