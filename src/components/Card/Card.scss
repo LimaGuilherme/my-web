@@ -1,8 +1,10 @@
 .card {
   margin: 20px 0;
-
   &:hover{
     background-color: $card-hover-color;
+  }
+  .card-skills {
+    height: 260px;
   }
 }
 

@@ -19,14 +19,14 @@ const Skills =  () => (
 
       <div className="columns is-multiline">
         <div className="column is-one-third">
-          <div className="card">
+          <div className="card ">
             <header className="card-header">
               <p className="card-header-title">
                 Major Skills
               </p>
             </header>
-            <div className="card-content">
-              <div className="content">
+            <div className="card-content card-skills">
+              <div className="content ">
                 <div className="tags">
                   <span className="tag">Python</span>
                   <span className="tag">Flask</span>
@@ -66,7 +66,7 @@ const Skills =  () => (
                 Average Skills
               </p>
             </header>
-            <div className="card-content">
+            <div className="card-content card-skills">
               <div className="content">
                 <div className="content">
                   <div className="tags">
@@ -90,16 +90,19 @@ const Skills =  () => (
               <p className="card-header-title">
                 Soft Skills
               </p>
-              <a className="card-header-icon" href="#"><span className="icon"><i aria-hidden="true" className="fas fa-tools"></i></span></a>
             </header>
-            <div className="card-content">
+            <div className="card-content card-skills">
               <div className="content">
                 <div className="tags">
+                  <span className="tag">Team Player</span>
                   <span className="tag">Clean Communication</span>
                   <span className="tag">Problem-Solving</span>
                   <span className="tag">Work Ethic</span>
                   <span className="tag">Time Management</span>
-                  <span className="tag">quickly learning</span>
+                  <span className="tag">Quick Learning</span>
+                  <span className="tag">Patience</span>
+                  <span className="tag">Empathy</span>
+                  <span className="tag">Teaching</span>
                 </div>
               </div>
             </div>
