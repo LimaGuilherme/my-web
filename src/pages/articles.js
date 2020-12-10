@@ -24,6 +24,13 @@ const Articles = () => (
 
       <div className="columns is-centered">
         <div className="column is-half">
+            <Card
+            title="How I Discovered The Most Common Word in Queen Lyrics"
+            subtitle="An overview of this idea and how I turned it into a real Python API"
+            link="https://towardsdatascience.com/how-i-discovered-the-most-common-word-in-queen-lyrics-701a0c442070"
+            tags={['Python', 'Elasticsearch', 'DDD']}
+            image='a'
+          />
           <Card
             title="Understanding Data Structures in Python"
             subtitle="An overview of the most useful builtins data structures."
