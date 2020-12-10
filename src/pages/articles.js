@@ -16,7 +16,7 @@ const Articles = () => (
       <p>
         Take a look at what I'm thinking and studying at
         {' '}
-        <a href="https://medium.com/@guilherme.lb" target="_blank">
+        <a href="https://guilherme-lb.medium.com" target="_blank">
           Medium
         </a>
         .
