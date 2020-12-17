@@ -29,10 +29,28 @@ const Projects =  () => (
       <div className="columns is-centered">
         <div className="column is-half">
           <Card
-            title="React Clean Architecture"
-            subtitle=""
-            link="https://github.com/LimaGuilherme/react-clean-architecture"
-            tags={['React', 'SOLID', 'Design Patterns']}
+            title="What Is Your Band Favorite Word"
+            subtitle="A python application to reveal your band's most used word."
+            link="https://github.com/LimaGuilherme/what-is-your-band-favorite-word-api"
+            tags={['Python', 'Flask', 'DDD', 'Elasticsearch', 'MongoDB']}
+          />
+          <Card
+            title="Estate Agency Management"
+            subtitle="A simple Estate Agency Management using the best of clean architecure and DDD."
+            link="https://github.com/LimaGuilherme/estate-agency-management-api"
+            tags={['Python', 'Flask', 'DDD', 'MySQL']}
+          />
+          <Card
+            title="Knight Moves"
+            subtitle="Algorithm to discover on a chessboard the least amount of movement for a horse to reach a certain house."
+            link="https://github.com/LimaGuilherme/knight-moves"
+            tags={['Python', 'Chess']}
+          />
+          <Card
+            title="Facial Recognize"
+            subtitle="A project designed to exemplify facial recognition."
+            link="https://github.com/LimaGuilherme/facial-recognize"
+            tags={['Python', 'AI']}
           />
           <Card
             title="Flask Boilerplate"
