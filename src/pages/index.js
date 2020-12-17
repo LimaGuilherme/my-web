@@ -132,7 +132,7 @@ const Home = () => (
           <FontAwesomeIcon icon={faGithub} />
         </span>
           </a>
-          <a className="social-media-icons" href="https://medium.com/@guilherme.lb" target="_blank" aria-label="medium">
+          <a className="social-media-icons" href="https://guilherme-lb.medium.com" target="_blank" aria-label="medium">
         <span className="icon is-large fa-1x">
           <FontAwesomeIcon icon={faMedium} />
         </span>
