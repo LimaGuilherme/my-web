@@ -79,11 +79,9 @@ const Home = () => (
                 <div className="content">
                   <div className="tags">
                     <span className="tag">React</span>
-                    <span className="tag">NodeJS</span>
-                    <span className="tag">GraphQL</span>
+                    <span className="tag">Go</span>
                     <span className="tag">StyleD Components</span>
                     <span className="tag">Bulma</span>
-                    <span className="tag">VueJS</span>
                     <span className="tag">Docker</span>
                     <span className="tag">NoSQL</span>
                     <span className="tag">AWS</span>
